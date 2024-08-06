@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+
+        background-image: url('https://www.shutterstock.com/image-vector/realistic-illustration-autumn-night-rain-600nw-1932348497.jpg'); /* Replace with your image URL */
+        background-size: cover; /* Cover the entire page */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent repeating */
+        color: #fff; /* Optional: Set text color for better contrast */
+        margin: 0; /* Remove default margins */
+        padding: 0; /* Remove default padding */
+        text-align: center; /* Center text */
+    
+    
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #151313;
+    background-color: #201d1d;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#weatherData {
+    margin-top: 20px;
+}
+
+
+
+footer {
+    position: fixed; /* Fixes footer to the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center; /* Center-align text in footer */
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
